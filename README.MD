@@ -18,3 +18,6 @@ Numbers divisible by 3 are replaced with "ping"
 Numbers divisible by 5 are replaced with "pong"
 Numbers divisible by 15 are replaced with "pingpong"
 A user will be able to enter a new number and see new results over and over again.
+Example :
+if input is 4
+then it will output 1,2,"ping",4
