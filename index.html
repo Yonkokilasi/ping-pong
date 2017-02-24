@@ -16,25 +16,14 @@
 <title>PING PONG</title>
 </head>
 <body>
-    <div class="container">
-        <img src="img/Logomakr_75UmbH.png" >
-        <h1>Let's play</h1>
-        <h2>Rules</h2>
-        <p>Here are the rules</p>
-            <ul>
-                <li>Numbers divisible by 3 become "ping</li>
-                <li>Numbers divisible by 5 become "pong"</li>
-                <li>Numbers divisible by 15 become "pingpong"</li>
-            </ul>
-            <div class="blanks">
-                <form id="pings">
-                    <div class="form-group">
-                    <label for="entry" class="form-group" >Enter your number here</label>
-                    <input id="entry" type="number"></input>
-                </div>
-                    <button type="submit" class="btn">Ping Pong</button>
-                </form>
-                <ul id="result">Look here</ul>
+    <div id="opening">
+        <h1>Hello Friend</h1>
+        <p>Want to play some ping-pong?</p>
+        <div class="row">
+        <a href="home.html"><button class="btn btn link btn-lg" id="start"><i class="fa fa-play-circle fa-5x" aria-hidden="true"></i></button></a>
+        <button class="btn btn-warning btn-lg disabled" id="ignore"><i class="fa fa-sign-out fa-5x" aria-hidden="true"></i></button>
     </div>
+    </div>
+
 </body>
 </html>
