@@ -29,6 +29,7 @@ function closeNav() {
 $(document).ready(function() {
     $(".blanks form").submit(function(event) {
         var user = parseInt($("input#entry").val());
+        $("input#entry").val(" ");
         var output = convert(user);
         output.forEach(function(element) {
             $("#result").append("<li>" + element + "</li>")
