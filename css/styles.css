@@ -1,0 +1,17 @@
+@media {
+    all();
+}
+
+html, body {
+    width: auto;
+}
+
+
+
+h1 {
+    font-family: 'Courgette', cursive;
+}
+
+h2 {
+    font-family: 'Old Standard TT', serif;
+}
