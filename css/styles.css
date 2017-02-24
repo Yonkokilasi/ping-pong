@@ -6,12 +6,14 @@ html, body {
     width: auto;
 }
 
-
-
 h1 {
     font-family: 'Courgette', cursive;
 }
 
 h2 {
     font-family: 'Old Standard TT', serif;
+}
+img {
+    padding: 4px;
+    text-align: center;
 }

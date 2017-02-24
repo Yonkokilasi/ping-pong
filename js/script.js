@@ -23,7 +23,9 @@ $(document).ready(function(){
     $(".blanks form").submit(function(event){
         var user= parseInt($("input#entry").val());
         var output= convert(user);
-        $("#in").append("<li>" + output + "</li>")
+        output.forEach(function(element){
+        $("#result").append("<li>" + element + "</li>")
         event.preventDefault();
     });
+});
 });
