@@ -1,29 +1,26 @@
 //back end
-
 function convert(number){
-    var input =[];
+    var arrayinput =[];
     for (var i =1; i<= number;i ++) {
     if(i % 15 === 0 ){
-        input.push("pingpong");
+        arrayinput.push("pingpong");
     }
     else if (i % 3 === 0){
-            input.push("ping");
+            arrayinput.push("ping");
         }
     else if (i % 5 === 0) {
-            input.push("pong");
+            arrayinput.push("pong");
         }
     else {
-            input.push(i);
+            arrayinput.push(i);
         }
     }
-    return input;
-    console.log(input);
+    return arrayinput;
     }
-
 
 //front-end
 $(document).ready(function(){
-    $("#blanks form").submit(function(event){
+    $(".blanks form").submit(function(event){
         var user= parseInt($("input#entry").val());
         var output= convert(user);
         $("#in").append("<li>" + output + "</li>")
