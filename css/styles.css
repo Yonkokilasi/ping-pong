@@ -13,15 +13,18 @@ h1 {
 h2 {
     font-family: 'Old Standard TT', serif;
 }
+
 img {
     padding: 4px;
     text-align: center;
 }
-i{
-    float :left;
+
+i {
+    float: left;
     padding: 30px;
 }
-#opening{
+
+#opening {
     background-image: url("../img/bRUkpo4.jpg");
     text-align: center;
     color: white;
@@ -32,21 +35,24 @@ i{
     height: 800px;
     width: 100%;
 }
-#opening{
-    font-size: 30px;
 
+#opening {
+    font-size: 30px;
 }
-#start{
+
+#start {
     background-color: darkorange;
     padding: 4px;
     margin-top: 100px;
     text-align: left;
 }
-#ignore{
+
+#ignore {
     text-align: right;
     padding: 4px;
     margin-top: 100px;
 }
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -60,7 +66,6 @@ i{
     transition: 1.8s;
 }
 
-
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -70,7 +75,7 @@ i{
     transition: 0.3s
 }
 
-.sidenav a:hover, .offcanvas a:focus{
+.sidenav a:hover, .offcanvas a:focus {
     color: #f1f1f1;
 }
 
@@ -82,13 +87,16 @@ i{
     margin-left: 50px;
 }
 
-
 #main {
     transition: margin-left .5s;
     padding: 20px;
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
