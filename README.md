@@ -8,7 +8,7 @@
 ####Setup instructions
     to install the system, pull the whole folder to your computer and then open the file called index.html using your default web browser
 #####github
-    my project is available online for free at git hub. to get it, check out [Project site]https://yonkokilasi.github.io/ping-pong/)
+    my project is available online for free at git hub. to get it, check out [Project site : https://yonkokilasi.github.io/ping-pong/)
 
 #######Copyrights
 By default, any project school project is copyrighted by the school. Please check out the school copyright rules
